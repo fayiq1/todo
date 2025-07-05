@@ -6,9 +6,8 @@ const Todo = require('../models/Todo');
 // Todos Page
 router.get('/', ensureAuthenticated, async (req, res) => {
   try {
-    const todos = await Todo.find({})
-    .sort({ deadline: 1 }); // Show soonest deadlines first
-  res.render('todos/index', { todos });
+    const todos = await Todo.find({ user: req.user._id }).sort({ createdAt: -1 });
+    res.render('todos/index', { todos });
   } catch (err) {
     console.error(err);
     res.render('error/500');
