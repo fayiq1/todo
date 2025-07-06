@@ -18,11 +18,6 @@ A full-featured todo list application with user registration, login, and task ma
 - Set deadlines for tasks
 - View overdue tasks (highlighted in red)
 
-✅ **Additional Features**
-- Responsive design with Bootstrap 5
-- Flash messages for user feedback
-- Protected routes
-- User-specific todo isolation
 
 ## Technologies Used
 
@@ -32,5 +27,14 @@ A full-featured todo list application with user registration, login, and task ma
 - **Templating**: EJS with express-ejs-layouts
 - **Frontend**: Bootstrap 5, Bootstrap Icons
 - **Other**: method-override, connect-flash, express-session
+
+## Group Members
+
+| En.  No. | Name            |
+|----------|-----------------|
+| 051      | Kamran          |
+| 001      | Hatim           |
+| 035      | Fayiq           |
+| 025      | Sikander        |
 
 
